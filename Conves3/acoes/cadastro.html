@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loucos por Café</title>
+    <link rel ="stylesheet" href="../_css/estilo.css">
+</head>
+<body>
+<div class="container">
+
+    <nav>
+        <ul class="menu">
+                <a href="../index.html"> <li>Home</li></a>
+            <br>
+            <a href="cadastro.html"> <li>Cadastrar</li></a>
+            <a href="consulta.php"> <li>Listar</li></a>
+            <a href="pesquisar.php"> <li>Pesquisa</li></a>
+            
+            
+
+        </ul>
+    </nav>
+    <section>
+       
+        <h1>Cadastro</h1>
+        <hr><br><br>
+        
+        <form method="post" action="processa.php">
+            Nome<br>
+            <input type="text" name="nome" class="campo"><br><br>
+
+            Sobre<br> 
+            <textarea name="sb" class="campotx" rows="15" cols="40"></textarea>
+            
+             <br><br>
+                  
+            <input type="submit" value="Salvar" class="btn">
+            <input type="reset" value="Cancelar" class="btn">
+                 
+            
+        </form>
+
+       
+    </section>
+</div>
+
+</body>
